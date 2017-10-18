@@ -5,12 +5,12 @@
 ############################################################
 
 # Add in your name
-# Claudia
+# Megan
 # Add in purpose of this script
 # To learn about version control on github
 
-# git config --global user.email "you@example.com"
-# git config --global user.name "Your Name"
+# git config --global user.email "megan897@example.com"
+# git config --global user.name "MStamp29"
 
 # Libraries ----
 library(ggplot2)
@@ -39,8 +39,8 @@ theme.clean <- function(){
 }
 
 # Load data ----
-setwd("C:/Users/clauv/Desktop/Uni/Coding_club/Week_5/CC-7-Github")
-temp_elevation <- read.csv("temp_elevation.csv")
+temp_elevation <- read_csv("~/Desktop/cc_git/cc_git/temp_elevation.csv")
+
 
 # Make a plot showing how soil temperature changes with elevation ----
 (temp.el <- ggplot (temp_elevation, aes(x=Elevation.m, y=Soil.temp.mean)) +
